@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Sports</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--CSS for Sports Page -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #FBD3D3;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 650px; /* only for demonstration, should be removed */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+    <!-- Linking back to main page -->
+<ul>
+    <li><a href="index.php">Home</a></li>
+</ul>
+<h1>Sports</h1>
+<p>I have always had an intense passion for both playing and watching sport. I was lucky to be a decent football player.</p>
+<p>I also took part in many other sports over the years but ultimate frisbee, a sport I started playing in college, will also be highlighted below.</p>
+
+<header>
+  <h2>Football & Ultimate</h2>
+</header>
+
+<section>
+  
+  
+  <article>
+    <h1>Football</h1>
+    <p>I played football for over 10 years with De La Salle FC.</p>
+    <p>The majority of my success came in the
+        final seasons where we won two League Cups, the Youth A League and reached the semi final of 
+        the Munster Cup.</p>
+    <p>I also played for the Waterford Youth Development Squad where we won the All Ireland.</p>
+    <a target="_blank" href="http://www.rulesofsport.com/sports/football.html">
+  <img src="Football.jpg" alt="Football" style="width:250px">
+</a>
+    
+    <h1>Ultimate Frisbee</h1>
+    <p>My first venture into Ultimate Frisbee was P.E. in Secondary School but I have begun training 
+        since I have come to college.</p>
+    <p>Ultimate is a refreshing change of pace from the seriousness that I often find permeates football.
+        I have my friends and I enjoy keeping fit in such a fun environment.</p>
+    <a target="_blank" href="http://www.whatisultimate.com/what-is-ultimate/">
+  <img src="Disc.jpeg" alt="Disc" style="width:250px">
+</a>
+    
+  </article>
+</section>
+
+
+</body>
+
+<!-- I got this code and edited it from https://www.w3schools.com/html/html_layout.asp -->
+
+</html>
+

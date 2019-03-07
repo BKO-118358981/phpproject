@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Travel</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--CSS for Travel -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #FBD3D3;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 600px; /* only for demonstration, should be removed */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #BCF4E9;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+<body>
+    <!-- Linking back to main page -->
+<ul>
+    <li><a href="index.php">Home</a></li>
+</ul>
+<h1>Travel</h1>
+<p>Travel has been done for pleasure and to broaden the mind for millenia. We love to explore and I'm no exception.</p>
+<p>I have been very lucky to get the opportunity to see countries in Europe and further afield</p>
+
+<header>
+  <h2>Travel Broadens The Mind</h2>
+</header>
+
+<section>
+  
+  
+  <article>
+    <h1>Los Angeles</h1>
+    <p>The summer of 2018 began with a month long visit to Los Angeles.</p>
+    <p>It was a very special time for me and was a great reward after a tough Leaving Cert year.</p>
+    <p>I spent my time on Venice Beach and got to visit Theme Parks. Not to mention taste some local food !</p>
+     <a target="_blank" href="https://www.lonelyplanet.com/usa/los-angeles">
+  <img src="LosAngeles.jpg" alt="Los Angeles" style="width:300px">
+</a>
+    
+    <h1>Paris</h1>
+    <p>For my birthday my girlfriend treated me to a trip to Paris, the city of love.</p>
+    <p>It was amazing to see such a beautiful city with such distinct atmosphere, character and food.
+        The metro made it easy to get around but I would love to go back and see more.</p>
+    <a target="_blank" href="https://www.lonelyplanet.com/france/paris">
+  <img src="Paris.jpg" alt="Paris" style="width:300px">
+</a>
+    
+  </article>
+</section>
+
+
+
+</body>
+
+<!-- I got this code from https://www.w3schools.com/html/html_layout.asp and edited it-->
+
+</html>
