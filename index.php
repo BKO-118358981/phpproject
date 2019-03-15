@@ -61,6 +61,8 @@
     <div class="menuitem"><a href="interests.html">Interests</a></div>
     <div class="menuitem"><a href="ConsultingServices.html">Consulting Services</a></div>
     <div class="menuitem"><a href="eBus1.php">Purchase</a></div>
+    <div class="menuitem"><a href="https://github.com/BKO-118358981/phpproject.git">My Github</a></div>
+    <div class="menuitem"><a href="https://bko-phpproject1.herokuapp.com/">My Heroku</a></div>
   </div>
 
   <div class="main">
