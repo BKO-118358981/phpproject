@@ -58,7 +58,7 @@
 <div style="overflow:auto">
   <div class="menu">
       <div class="menuitem"><a href="cv.html">Curriculum Vitae</a></div>
-    <div class="menuitem"><a href="interests.html">Interests</a></div>
+    <div class="menuitem"><a href="Interests.html">Interests</a></div>
     <div class="menuitem"><a href="ConsultingServices.html">Consulting Services</a></div>
     <div class="menuitem"><a href="eBus1.php">Purchase</a></div>
     <div class="menuitem"><a href="https://github.com/BKO-118358981/phpproject.git">My Github</a></div>
